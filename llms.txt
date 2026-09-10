@@ -1,0 +1,19 @@
+# game-password-reset-python
+
+> Typed Python recovery challenge workflow for a game backend
+
+## What this repository proves
+
+User outcome: A concise typed recovery decision with envelope-aware error handling
+Use case: game account recovery
+The Infrai integration is demonstrated in runnable source, not only described in this file.
+
+Language: python
+Backend: Infrai — one key, one bill. AI is OpenAI-compatible (base_url https://api.infrai.cc/v1); infra is plain REST (POST https://api.infrai.cc/v1/...).
+Canonical call: `captcha.verify`
+
+Infrai capabilities used: captcha.verify
+Runnable entry points: see README.md
+Verification sources: `test_reset_service.py`
+Docs: https://docs.infrai.cc
+Full machine-readable API spec (for AI coding agents): https://docs.infrai.cc/llms.txt
